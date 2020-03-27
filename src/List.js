@@ -60,7 +60,9 @@ class List extends React.Component {
                                     Huolto numero: {list.service_code} <br></br>
                                     Huollon nimi: {list.service_name} <br></br>
                                     Vastuu ryhmä: {list.agency_responsible} <br></br>
-                                    Huollon kuvaus: {list.description}</p>
+                                    Huollon kuvaus: {list.description} <br></br>
+                                    Leveysaste: {list.lat}<br></br>
+                                    Pituusaste: {list.long}</p>
                                 </div>
                             </li>
                             )
